@@ -15,6 +15,7 @@ class TestStudent:
         my_student = Student("My", "Student")
         assert((my_student.first_name, my_student.last_name) == ("My", "Student"))
 
+
     def test_initializes_with_knowledge(self):
         '''initializes with empty list attribute "knowledge".'''
         my_student = Student("My", "Student")
